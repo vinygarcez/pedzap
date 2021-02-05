@@ -1,0 +1,478 @@
+body, p{
+    border: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+/*////////////////////////////////////////////////////// DOBRA 1*/
+#dobra1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/IMG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+#logo{
+    float:inline-start;
+    margin: 10vh 0 0 15%;
+}
+#form1{
+    width: 25%;
+    float: right;
+    margin-right: 15%;
+    margin-top: 30vh;
+}
+#form1 input{
+    width: 95%;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #30bb6e;
+    border-radius: 20px;
+    padding: 20px 0 20px 20px ;
+    margin-bottom: 2vh;
+}
+#form1 input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+#form1 input:focus{
+    border-color: #30bb6e;
+    border-radius: 20px;
+}
+button{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+    width: 100%;
+    background-color: #30bb6e;
+    border-radius: 20px;
+    padding: 20px;
+    border: 0;
+}
+#intro{
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 10vh;
+    float: inline-end;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#subintro{
+    width: 25%;
+    margin-left: 15%;
+    float: inline-end;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 8vh;
+}
+
+/*////////////////////////////////////////////////////// DOBRA 2*/
+#dobra2{
+    width: 100%;
+    height: 100vh;
+    background-color: #30bb6e;
+}
+#textodobra2{
+    width: 50%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+#intro2{
+    width: 50%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #30bb6e;
+    margin: 5vh 30%;
+    text-transform: uppercase;
+}
+.blocotexto{
+    width: 40%;
+    padding: 2%;
+    font-size: 25px;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #30bb6e;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-bottom: 3vh;
+}
+#gatilho{
+    float: left;
+    width: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 30%;
+    margin-top: 5vh;
+    background-color: #1078b8;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2vh 1.2vw 2vh 1.2vw;
+}
+#robo1{
+    height: 90vh;
+    float: right;
+    display: inline-flex;
+    position: relative;
+    margin-right: 20%;
+    margin-top: 10vh;
+}
+
+/*////////////////////////////////////////////////////// DOBRA 3*/
+#dobra3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/IMG2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#intro3{
+    width: 30%;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 8vh 0 5vh 40%;
+    text-transform: uppercase;
+}
+#subintro3{ 
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+#bloco{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+#esquerda{
+    width: 50%;
+}
+#direita{
+    width: 50%;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+.blocotexto2{
+    color: #30bb6e;
+    width: 60%;
+    padding: 2%;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin-left: 30%;
+    margin-bottom: 3vh;
+}
+#subtexto{
+    color: #ffffff;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 30%;
+    text-align: center;
+}
+#gatilho2{
+    float: left;
+    width: 60%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 30%;
+    background-color: #1078b8;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 3vh;
+}
+.video{
+    width: 400px;
+    height: 225px;
+    margin: 0 0 3vh 20%;
+}
+
+/*////////////////////////////////////////////////////// DOBRA 4*/
+#dobra4{
+    width: 100%;
+    height: 85vh;
+}
+#intro4{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 5vh 0 5vh 0;
+    color: #30bb6e;
+    text-transform: uppercase;
+}
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    margin: 0 auto 5vh auto;
+}
+#flex div{
+    flex: 1 1 25%;
+    margin-bottom: 5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+    padding: 8vh 10px;
+    border-radius: 20px;
+    margin: 0 1% 5vh 1%;
+}
+#img1{
+    background-image: url(img/clientes.png);
+}
+#img2{
+    background-image: url(img/reclamacoes.png);
+}
+#img3{
+    background-image: url(img/pedidos.png);
+}
+#img4{
+    background-image: url(img/delivery.png);
+}
+#img5{
+    background-image: url(img/possibilidade.png);
+}
+#img6{
+    background-image: url(img/metricas.png);
+}
+#gatilho4{
+    width: 60%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 40%;
+    background-color: #1078b8;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1% 3%;
+}
+#futuro{
+    background-color: #f8f8f8;
+    color: #196aa6;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#futuro p{
+    margin-right: 2%;
+}
+#futuro img{
+    height: 50%;
+}
+
+/*////////////////////////////////////////////////////// DOBRA 5*/
+#dobra5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/IMG3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#intro5{
+    width: 40%;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 2vh 0 2vh 15%;
+    text-transform: uppercase;
+}
+#subintro5{
+    width: 40%;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 2vh 0 2vh 15%;
+}
+.redessociais{
+    margin: 0 0 2vh 15% ;
+}
+.redessociais a{
+    margin-right: 1%;
+}
+#form5{
+    margin-left: 15%;
+    width: 30%;
+}
+#form5 input{
+    width: 95%;
+    color: white;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px 0 20px 20px ;
+    margin-bottom: 2vh;
+}
+#form5 input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+#form5 input:focus{
+    border-color: #ffffff;
+    border-radius: 20px;
+}
+#form5 button{
+    color: #196aa6;
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    border: 0;
+}
+#robo2{
+    height: 80vh;
+    float: left;
+    display: inline-flex;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 20vh;
+}
+
+/*////////////////////////////////////////////////////// FOOTER INDEX */
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 15%;
+    align-items: center;
+}
+#logofooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 15%;
+    font-size: 20px;
+}
+#logofooter img{
+    height: 8vh;
+}
+
+/*////////////////////////////////////////////////////// TELA DE ERRO */
+#erro{
+    width: 100%;
+    height: 100vh;
+    background-color: #b71c1c;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+#msgerro{
+    padding-top: 40vh;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10vh;
+}#botaovoltar{
+    width: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #b71c1c;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    padding: 1vh 3%;
+}
+#botaovoltar:hover{
+    width: 40%;
+    color: #b71c1c;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1vh 3%;
+}
+/*////////////////////////////////////////////////////// TELA DE CONFIRMACAO */
+#confirmacao{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/IMG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    align-items: center;
+}
+#logoconfirmacao{
+    float: left;
+    position: absolute;
+    width: 15%;
+    margin: 15vh 0 0 30%;
+}
+#roboconfirmacao{
+    float: left;
+    height: 80vh;
+    position: absolute;
+    margin: 20vh 0 0 60%;
+}
+#msgconfirmacao{
+    padding-top: 50vh;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10vh 15%;
+    position: relative;
+}#botaovoltar2{
+    width: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #30bb6e;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #30bb6e;
+    text-align: center;
+    padding: 1vh 3%;
+    margin-left: 30%;
+}
+#botaovoltar2:hover{
+    color: #30bb6e;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
